@@ -1,0 +1,4 @@
+sion="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.SoftCli.PackagingInstantMessagingCurrentUser_Start)"/>
+          <event symbol="SoftCli_PackagingInstantMessagingCurrentUser_Stop" task="SoftCli.PackagingInstantMessagingCurrentUser" value="23037" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Stop" message="$(string.Event.SoftCli.PackagingInstantMessagingCurrentUser_Stop)"/>
+          <event symbol="SoftCli_PackagingJavaVirtualMachine_Start" task="SoftCli.PackagingJavaVirtualMachine" value="23038" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.SoftCli.PackagingJavaVirtualMachine_Start)"/>
+          <event symbol="SoftCli_PackagingJavaVirtualMachine_Stop" task="SoftCli.PackagingJavaVirtualMachine" value="23039" version="1" cha

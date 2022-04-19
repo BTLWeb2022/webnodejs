@@ -1,0 +1,7 @@
+ryNotifications_Settings_StartSendChangeNotification" value="18020" opcode="win:Start" level="win:ReservedLevel6" task="RegistryNotification.SendChangeNotificationTask" channel="Alz" message="$(string.Event.RegistryNotification.StartSendChangeNotification)"/>
+          <event symbol="RegistryNotifications_Settings_StopSendChangeNotification" value="18021" opcode="win:Stop" level="win:ReservedLevel6" task="RegistryNotification.SendChangeNotificationTask" channel="Alz" message="$(string.Event.RegistryNotification.StopSendChangeNotification)"/>
+
+          <!-- FTA Performance Events -->
+          <event symbol="FTA_Packaging_Start" value="19000" version="1" channel="Alz" level="win:ReservedLevel6" task="FTA.Packaging" opcode="win:Start" message="$(string.Event.FTA.Packaging_Start)" />
+          <event symbol="FTA_Packaging_Stop" value="19001" version="1" channel="Alz" level="win:ReservedLevel6" task="FTA.Packaging" opcode="win:Stop" message="$(string.Event.FTA.Packaging_Stop)" />
+          <event symbol="FTA_ShellNotifyFtaAssocChangedBegin" value="19002" version="1" channel="Alz" level="win:ReservedLevel6" task="FTA.Shell

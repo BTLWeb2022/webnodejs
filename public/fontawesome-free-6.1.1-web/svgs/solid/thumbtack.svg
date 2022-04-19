@@ -1,0 +1,5 @@
+nnel="Alz" opcode="win:Stop" version="0" task="RegistryStaging.ServiceStartRuntime" /> 
+          <event value="17002" symbol="RegistryStaging_ProcessStartRuntimeStart" level="win:ReservedLevel6" channel="Alz" opcode="win:Start" version="0" task="RegistryStaging.ProcessStartRuntime" />
+          <event value="17003" symbol="RegistryStaging_ProcessStartRuntimeComplete" level="win:ReservedLevel6" channel="Alz" opcode="win:Stop" version="0" task="RegistryStaging.ProcessStartRuntime" />
+          <event value="17004" symbol="RegistryStaging_ServiceStopRuntimeStart" level="win:ReservedLevel6" channel="Alz" opcode="win:Start" version="0" task="RegistryStaging.ServiceStopRuntime" />
+          <event value="17005" symbol="RegistryStag

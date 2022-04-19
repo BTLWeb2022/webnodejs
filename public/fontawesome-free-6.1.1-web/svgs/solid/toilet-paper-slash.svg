@@ -1,0 +1,8 @@
+hannel="Alz" level="win:ReservedLevel6" opcode="win:Stop" message="$(string.Event.Shortcut.Packaging_StopParsingShortcutFilesSearchingForLinkFiles)" />
+
+          <!-- WTF: these aren't perf events and are not used that way in the code  -->
+          <event symbol="Shortcuts_Notifier_RpcServerStarted" value="22000" version="1" channel="Alz" task="Shortcut.ShellNotifyRpcServer" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.Shortcut.Notifier_RpcServerStarted)" />
+          <event symbol="Shortcuts_Notifier_RpcServerStopped" value="22001" version="1" channel="Alz" task="Shortcut.ShellNotifyRpcServer" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.Shortcut.Notifier_RpcServerStopped)" />
+
+          <event symbol="Shortcuts_Notifier_ShellNotifyPathBegin" value="22002" version="1" channel="Alz" task="Shortcut.ShellNotifyPath" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.Shortcut.Notifier_ShellNotifyPathBegin)" />
+          <event symbol="Shortcuts_

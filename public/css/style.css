@@ -1,0 +1,183 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*=====Navbar===========*/
+.login-signup a{
+  color: #fff !important;
+  text-decoration: none;
+}
+.login-signup a:hover{
+  color: red !important;
+  text-decoration: none;
+}
+.navbar-brand{
+  font-size: 200%;
+
+}
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.bg-black{
+    background: #000;
+}
+.cart-text a{
+  color: yellow !important;
+}
+.cart-text a:hover{
+  color: red !important;
+}
+.navbar-form{
+  width: 30%;
+}
+/*=========Slider Section ============*/
+.carousel-item{
+    height: 600px;
+}
+.carousel-image-1{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
+    url('../img/banner-bongro.jpg');
+    background-size: cover;
+}
+.carousel-image-2{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+     url('../img/banner-xedap-sport=.jpg');
+    background-size: cover;
+}
+.carousel-image-3{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+     url('../img/bannerbanbongban.jpg');
+    background-size: cover;
+}
+.h-color{
+    color:#fff;
+
+}
+.btn-color{
+    background: #000;
+    color: #fff;
+}
+.btn-color:hover{
+    color: #fff;
+}
+
+  .slide-btn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+ 
+  /*=========End of Slider=====*/
+  /*======Service Section=====*/
+  .service-icon{
+      display: inline-block;
+      font-size: 32px;
+      margin-bottom: 16px;
+      color: rgb(0, 89, 255);
+      padding: 8px 16px;
+  }
+  /*======End of Service Section====*/
+  /*=======Products section=======*/
+.products{
+  background-color: antiquewhite;
+  padding-bottom: 30px;
+}
+ .products h2 {
+  font-size: 40px;
+  color: #fff;
+  justify-content: center;
+ }
+ .products img{
+   width: 170px;
+   height: 120;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   justify-items: center;
+ }
+ .products h6{
+   font-weight: bold;
+   color: #333;
+   text-align: center;
+   font-size: 15px;
+
+ }
+  .product-title{
+    color: #fff;
+  }
+  .products p span{
+    color: red;
+  }
+  .products p i{
+    color: yellow;
+  }
+  .card-text{
+    align-items: center;
+  }
+
+
+/* Grow Shadow */
+
+
+/*Best Seller== */
+.seller{
+  background: #000;
+  color: #fff;
+  margin-top: 30px;
+}
+.img-top{
+  margin-top: 10px;
+}
+
+.seller-item{
+  text-align: right;
+
+}
+.seller-item p{
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.seller-item p{
+  bottom: 30px;
+  line-height: 1.5;
+  transform: translate3d(0, 100%, 0);
+}
+.seller-item p{
+  opacity:0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.seller-item:hover p{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+/* End of Best Seller==*/
+/*Contact us */
+.btn-color{
+  background: #000;
+  color: #fff;
+}
+
+/* Wobble Vertical */
+
+
+
+/*==Footer===*/
+.footer{
+  background: #000;
+  color: #fff;
+}
+.fab{
+  padding-left: 10px;
+}

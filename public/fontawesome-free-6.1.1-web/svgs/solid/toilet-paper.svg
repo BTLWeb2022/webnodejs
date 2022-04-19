@@ -1,0 +1,6 @@
+message="$(string.Event.SoftCli.UnpublishPackage_Start)"/>
+          <event symbol="SoftCli_Publishing_UnpublishPackage_Stop" task="SoftCli.UnpublishPackage" value="23005" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Stop" message="$(string.Event.SoftCli.UnpublishPackage_Stop)"/>
+          <event symbol="SoftCli_Publishing_PublishPackage_Start" task="SoftCli.PublishPackage" value="23006" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.SoftCli.PublishPackage_Start)"/>
+          <event symbol="SoftCli_Publishing_PublishPackage_Stop" task="SoftCli.PublishPackage" value="23007" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Stop" message="$(string.Event.SoftCli.PublishPackage_Stop)"/>
+          <event symbol="SoftCli_Publishing_DeserializePolicy_Start" task="SoftCli.DeserializePolicy" value="23008" version="1" channel="Alz" level="win:ReservedLevel6" opcode="win:Start" message="$(string.Event.SoftCli.DeserializePolicy_Start)"/>
+          <event symbol="SoftCli_Publishing_DeserializePolicy_Stop" task="Sof

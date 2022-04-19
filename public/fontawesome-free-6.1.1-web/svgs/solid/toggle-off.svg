@@ -1,0 +1,4 @@
+symbol="Reporting_UploadReportingDataStart" level="win:ReservedLevel6" channel="Alz" opcode="win:Start" version="1" task="Reporting.UploadReportingData" message="$(string.Task.Reporting.UploadReportingData)"/>
+          <event value="20011" symbol="Reporting_UploadReportingDataStop"  level="win:ReservedLevel6" channel="Alz" opcode="win:Stop" version="1" task="Reporting.UploadReportingData" message="$(string.Task.Reporting.UploadReportingData)"/>
+
+          <event value="20012" symbol="Reporting_SendReportingDataStart" level="win:ReservedLevel6" channel="Alz" opcode="win:Start" version="1" task="Reporting.SendReportingData" messa

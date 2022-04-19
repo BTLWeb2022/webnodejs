@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chu</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../bootstrap-4.0.0-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.1.1-web/css/fontawesome.css"
+    />
+    <link rel="stylesheet" href="../fontawesome-free-6.1.1-web/css/all.css" />
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <!-- header section starts -->
+    <!--Nav-->
+
+    <header class="bg-info">
+      <div class="row login-signup">
+        <div class="col-md-12 text-right mr-5 pr-5 mt-2">
+          <a href="" data-toggle="modal" data-target="#modalLogin"
+            ><i class="fa-solid fa-user"></i>Đăng Nhập</a
+          >
+          <span>-</span>
+          <a href="../html/dangky.html"
+            ><i class="fa-solid fa-user"></i>Đăng Ký</a
+          >
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+          <a href="../html/index.html" class="navbar-brand" height="100"
+            >Best Central</a
+          >
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="../html/index.html" class="nav-link">Trang&nbsp;chủ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Giới&nbsp;thiệu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  >Sản&nbsp;phẩm</a
+                >
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="#" class="dropdown-item">XE ĐẠP TẬP THỂ DỤC</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">DỤNG CỤ BÓNG BÀN</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">DỤNG CỤ BÓNG RỔ</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">DỤNG CỤ TENNIS</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Tin&nbsp;tức</a>
+              </li>
+              <li class="nav-item">
+                <a href="../html/lienhe.html" class="nav-link">Liên&nbsp;hệ</a>
+              </li>
+
+              <input
+                type="search"
+                id=""
+                class="form-group"
+                style="border: none;"
+              />
+              <button type="button" class="btn btn-warning form-group">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+              <li class="nav-item cart-text">
+                <a href="#" class="nav-link"
+                  ><i class="fas fa-shopping-cart fa-2x"></i><%-data%></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--End of NAv-->
+    <!-- SLIDER -->
+    <section id="main">
+      <div id="Carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#Carousel" data-slide-to="1"></li>
+          <li data-target="#Carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-4 h-color">
+                  Bạn Cần Dụng Cụ Thể Thao Đúng Ý?
+                </h1>
+                <p class="lead">
+                  Hãy đến với chúng tôi chúng tôi sẽ giúp bạn có được sản phẩm
+                  bạn đang cần với những lời tư vấn từ chúng tôi chắc chắn sẽ
+                  giúp bạn thõa mãn.
+                </p>
+                <a href="/home" class="btn btn-warning slide-btn btn-lg"
+                  >Đăng Ký Ngay</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-4 h-color">
+                  Bạn Muốn Rắn Chắc Nhanh Nhẹn Hơn
+                </h1>
+                <p class="lead">
+                  Shop chúng tôi có đủ các loại máy chạy và các sản phẩm khác có
+                  thể giúp bạn đạt được mong muốn đó .
+                </p>
+                <a href="#" class="btn btn-color slide-btn btn-lg"
+                  >Tìm Hiểu Thêm</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-4 h-color">
+                  Bạn Muốn Luyện Sự Tập Trung Và Ứng Biến Cao Độ
+                </h1>
+                <p class="lead">
+                  Hãy theo chân chúng tôi với cá sản phẩm hiện có tại shop chắc
+                  chắn rằng chúng tôi có thể giúp bạn.
+                </p>
+                <a href="#" class="btn btn-color slide-btn btn-lg"
+                  >Tìm Hiểu Thêm</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#Carousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!--End of slider-->
+    <!--Service Section==========-->
+    <section class="services py-5 text-center">
+      <div class="container">
+        <div class="row">
+          <!--Single Service-->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+            <span class="service-icon">
+              <i class="fa-solid fa-truck fa-2x"></i>
+            </span>
+            <h5 class="font-weight-bold text-uppercase">
+              VẬN CHUYỂN TRÊN TOÀN QUỐC
+            </h5>
+            <p class="text-capitalize">Giao Hàng nhanh đúng hẹn cho khách.</p>
+          </div>
+          <!--end of Service=-->
+          <!--Single Service-->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+            <span class="service-icon">
+              <i class="fa-regular fa-credit-card fa-2x"></i>
+            </span>
+            <h5 class="font-weight-bold text-uppercase">THANH TOÁN TIỆN LỢI</h5>
+            <p class="text-capitalize">
+              Khách hàng có thể thanh toán bằng nhiều thức khác nhau.
+            </p>
+          </div>
+          <!--end of Service=-->
+          <!--Single Service-->
+          <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+            <span class="service-icon">
+              <i class="fas fa-file-invoice-dollar fa-2x"></i>
+            </span>
+            <h5 class="font-weight-bold text-uppercase">
+              30 NGÀY HOÀN LẠI TIỀN
+            </h5>
+            <p class="text-capitalize">
+              Nếu sản phẩm có sai sót thì khách hàng có thể trả hàng và được
+              hoàn tiền 100%.
+            </p>
+          </div>
+          <!--end of Service=-->
+        </div>
+      </div>
+    </section>
+    <!---End of Service Section=======-->
+    <!-- Product section -->
+
+    <!---End of About Section---->
+    <!--Best Seller Products-->
+    <div class="products">
+      <h2 class="row justify-content-center bg-dark">Sản Phẩm Nổi Bật</h2>
+      <div class="card-deck m-4 product">
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5"  onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5"  onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5"  onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5"  onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+      </div>
+        <div class="card-deck m-4 product">
+        <div href="#" class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5"  onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top img-fluid"
+            src="../img/item-procduct_new/sanpham1.jpg" 
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+            <p class="card-text">
+              <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+              <span>15,250,000<sup>đ</sup></span>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+              ><small class="text-muted"> 1267 đã bán</small>
+            </p>
+            <p class="card-text">
+              <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+            </p>
+            <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+        <h2 class="row justify-content-center bg-dark">Sản Phẩm Khuyến Mãi</h2>
+        <div class="card-deck m-4 product">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck m-4 product">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              src="../img/item-procduct_new/sanpham1.jpg" 
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Bộ Khung Gánh Tạ Đa Năng K8 NEW</h6>
+              <p class="card-text">
+                <small class="text-muted"><del>19,500,000 <sup>đ</sup></del></small>
+                <span>15,250,000<sup>đ</sup></span>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><small class="text-muted"> 1267 đã bán</small>
+              </p>
+              <p class="card-text">
+                <i class="fa-solid fa-truck" style="color: orangered;"></i> Vận chuyển toàn quốc
+              </p>
+              <button class="btn btn-warning ml-5" onclick="window.location.href='/add/product'">Mua Ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    <!---End of Best Seller-->
+    <!--Contact us Section-->
+    <!--Contact US-->
+    <section class="contact py-5">
+      <div class="container">
+        <h2 class="section-heading">Liên Hệ Với Chúng Tôi</h2>
+        <form class="col-lg-6 offset-lg-3">
+          <div class="form-group">
+            <label for="email">Địa chỉ Email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Tên</label>
+            <input
+              type="text"
+              id="name"
+              class="form-control"
+              placeholder="Enter name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Tin Nhắn</label>
+            <textarea
+              class="form-control"
+              id="message"
+              placeholder="Type your message"
+              row="5"
+            >
+            </textarea>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="check" />
+            <label class="form-check-label" for="check">Đăng Ký Tin</label>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-lg btn-color cont-btn">Xác Nhận</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--End of Contact Section-->
+    <!--Footer-->
+    <footer class="footer mt-5">
+      <div class="text-center py-5">
+        <h2 class="py-3">SHOP THỂ THAO VIỆT NAM</h2>
+        <div class="mx-auto heading-line"></div>
+      </div>
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              fringilla aliquet est nec aliquet. Cras convallis ultrices sem, id
+              cursus tellus varius.
+            </p>
+            <div class="justify-content-center">
+              <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+              <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+              <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center py-3 border-top text-light">
+          <p>
+            &copy;2022 Dụng Cụ Thể Dục Thể Thao Chính Hãng - Giá Rẻ Tại shop
+            Best Central
+          </p>
+        </div>
+      </div>
+
+      <!-- model-login -->
+      <div id="modalLogin" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" style="color: black">Trang Đăng Nhập</h3>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="" method="" role="form">
+                <div class="form-group">
+                  <label for="">Tên Đăng Nhập</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="txtDN"
+                    placeholder="Tên đăng nhập"
+                  />
+                  <label for="">Mật Khẩu</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="txtMKDN"
+                    placeholder="Mật khẩu"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  onclick="dangnhap();"
+                >
+                  Đăng Nhập
+                </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- chuyển slide -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.4.1.slim.min.js"></script>
+
+    <!-- header section end -->
+  </body>
+</html>
